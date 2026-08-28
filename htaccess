@@ -1,0 +1,29 @@
+ErrorDocument 403 /404.html
+ErrorDocument 404 /404.html
+
+DirectoryIndex page74342761.html
+
+RewriteEngine On
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/project24320786/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^alionaberd$ page74342761.html [NC]
+RewriteRule ^alionaberd/$ page74342761.html [NC]
+
+RewriteRule ^aliona-v$ page74342763.html [NC]
+RewriteRule ^aliona-v/$ page74342763.html [NC]
+
+RewriteRule ^portfolio-v$ page74342769.html [NC]
+RewriteRule ^portfolio-v/$ page74342769.html [NC]
+
+RewriteRule ^thi-v$ page74342773.html [NC]
+RewriteRule ^thi-v/$ page74342773.html [NC]
+
+RewriteRule ^cookie-v$ page74342775.html [NC]
+RewriteRule ^cookie-v/$ page74342775.html [NC]
+
+RewriteRule ^dogovor-v$ page74342777.html [NC]
+RewriteRule ^dogovor-v/$ page74342777.html [NC]
+
+
